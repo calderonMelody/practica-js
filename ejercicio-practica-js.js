@@ -31,17 +31,17 @@ let compusConGpu = computadorasCreadas.filter(computadora => (computadora.gpu== 
 // ]
 
 // console.log(`Las computadoras disponibles son: ${JSON.stringify(computadorasCreadas)}`)
-// console.log('--- Las computadoras disponibles son: ', computadorasCreadas)
-// console.log('--- Las computadoras con GPU son: ', compusConGpu)
+console.log('--- Las computadoras disponibles son: ', computadorasCreadas)
+console.log('--- Las computadoras con GPU son: ', compusConGpu)
 
 
 // ------ Ejercicio 4
-// let calcularNafta = ((kilometros, precioNafta)=>{
-//     let gastaPorKilometro = (kilometros/100)*2
-//     let precioDeLaNafta = gastaPorKilometro*precioNafta
-//     console.log(`Gasta por kilometro ${gastaPorKilometro} litros de nafta. Deberias cargar $ ${precioDeLaNafta} de nafta`)
-// }) 
-// calcularNafta(100,10)
+let calcularNafta = ((kilometros, precioNafta)=>{
+    let gastaPorKilometro = (kilometros/100)*2
+    let precioDeLaNafta = gastaPorKilometro*precioNafta
+    console.log(`Gasta por kilometro ${gastaPorKilometro} litros de nafta. Deberias cargar $ ${precioDeLaNafta} de nafta`)
+}) 
+calcularNafta(100,10)
 
 
 // ------ Ejercicio 5 - 7
